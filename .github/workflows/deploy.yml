@@ -33,9 +33,6 @@ jobs:
         with:
           path: docs/.vitepress/dist
       - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v1
-      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with: 
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
