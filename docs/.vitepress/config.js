@@ -3,7 +3,6 @@ export default {
     lang: 'en-US',
     title: 'test',
     description: 'Vite & Vue powered static site generator.',
-    dest: "/../../dist",
     themeConfig: {
         siteTitle: 'test',
         logo: '/.vitepress/logo.jpg',
