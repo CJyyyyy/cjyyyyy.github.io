@@ -13,7 +13,7 @@ export default {
           indexName: '...'
         },
         nav: [
-            { text: 'Guide', link: '/guide/' },
+            { text: 'Guide', link: '/guide/one' },
             {
               text: 'Dropdown Menu',
               items: [
@@ -45,7 +45,7 @@ export default {
             {
               text: 'Guide',
               items: [
-                { text: 'Index', link: '/guide/' },
+                { text: 'Index', link: '/guide/one' },
                 { text: 'One', link: '/guide/one' },
                 { text: 'Two', link: '/guide/two' }
               ]
@@ -55,7 +55,7 @@ export default {
             {
               text: 'Config',
               items: [
-                { text: 'Index', link: '/config/' },
+                { text: 'Index', link: '/config/three' },
                 { text: 'Three', link: '/config/three' },
                 { text: 'Four', link: '/config/four' }
               ]
