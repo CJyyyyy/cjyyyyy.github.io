@@ -1,10 +1,10 @@
 export default {
-    base:'/guide/',
+    base:'/',
     lang: 'en-US',
-    title: 'rookieX',
+    title: 'test',
     description: 'Vite & Vue powered static site generator.',
     themeConfig: {
-        siteTitle: 'rookieX',
+        siteTitle: 'test',
         logo: '/.vitepress/logo.jpg',
         algolia: {
           appId: '...',
