@@ -33,8 +33,6 @@ jobs:
 #        with:
 #          path: docs/.vitepress/dist
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with: 
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: docs/.vitepress/dist
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          publish_dir: docs/.vitepress/dist
