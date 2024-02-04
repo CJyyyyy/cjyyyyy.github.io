@@ -5,7 +5,7 @@ export default {
   description: "Vite & Vue powered static site generator.",
   themeConfig: {
     siteTitle: "syaw",
-    logo: "/public/logo.jpg",
+    logo: "logo.jpg",
     algolia: {
       appId: "...",
       apiKey: "...",
