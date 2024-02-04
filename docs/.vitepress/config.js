@@ -1,10 +1,10 @@
 export default {
   base: "/",
   lang: "en-US",
-  title: "test",
+  title: "随便记记8",
   description: "Vite & Vue powered static site generator.",
   themeConfig: {
-    siteTitle: "syaw",
+    siteTitle: "空空如也",
     logo: "logo.jpg",
     algolia: {
       appId: "...",
@@ -12,9 +12,9 @@ export default {
       indexName: "...",
     },
     nav: [
-      { 
+      {
         text: "Java",
-        link: "/java/hashmap" 
+        link: "/java/HashMap/一些基础",
       },
       {
         text: "Mysql",
@@ -30,24 +30,26 @@ export default {
         {
           text: "Java",
           items: [
-            { text: "HashMap", link: "/java/hashmap" },
+            {
+              text: "HashMap",
+              items: [
+                { text: "一些基础", link: "/java/HashMap/一些基础" },
+                { text: "JDK1.7死链问题", link: "/java/HashMap/JDK1.7死链问题" },
+              ],
+            },
           ],
         },
       ],
       "/mysql/": [
         {
           text: "Mysql",
-          items: [
-            { text: "MVCC", link: "/mysql/mysql" },
-          ],
+          items: [{ text: "MVCC", link: "/mysql/mysql" }],
         },
       ],
       "/nginx/": [
         {
           text: "Nginx",
-          items: [
-            { text: "配置", link: "/nginx/nginx" },
-          ],
+          items: [{ text: "配置", link: "/nginx/nginx" }],
         },
       ],
     },
