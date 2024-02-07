@@ -53,5 +53,8 @@ export default {
         },
       ],
     },
+    footer: {
+      message: '<a href="https://beian.miit.gov.cn/">闽ICP备XXXX号</a>',
+    },
   },
 };
