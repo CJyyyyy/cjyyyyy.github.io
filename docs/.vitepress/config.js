@@ -22,7 +22,7 @@ export default {
       },
       {
         text: "Nginx",
-        link: "/nginx/nginx",
+        link: "/nginx/nginx跨域配置",
       },
     ],
     sidebar: {
@@ -49,7 +49,7 @@ export default {
       "/nginx/": [
         {
           text: "Nginx",
-          items: [{ text: "配置", link: "/nginx/nginx" }],
+          items: [{ text: "配置", link: "/nginx/nginx跨域配置" }],
         },
       ],
     },
